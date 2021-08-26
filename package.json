@@ -1,0 +1,34 @@
+{
+  "name": "imgchest-dl",
+  "version": "1.0.0",
+  "description": "A Node.js program for downloading image albums from https://imgchest.com.",
+  "main": "index.js",
+  "repository": "git@github.com:james4burns/imgchest-dl",
+  "author": "James Burns",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.2",
+    "@types/yargs": "^17.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "esbuild": "^0.12.23",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.3.2",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "start": "node build/index.js"
+  }
+}
