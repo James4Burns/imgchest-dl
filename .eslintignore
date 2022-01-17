@@ -1,8 +1,0 @@
-# dependencies
-node_modules
-
-# build files
-build
-
-# environment files
-.env
